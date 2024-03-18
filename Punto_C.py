@@ -4,6 +4,7 @@ personajes =["Anakin Skywalker", "Luke Skywalker", "Leia Organa", "Obi-Wan Kenob
              , "Yoda", 
              "Jaba the Hutt", "Boba Fett","R2D2", "C3PO", "Padme Amidala", "Darth Sidious"]
 
+#Funcion def centinela que recibe una lista y una valor de tipo str y devuelve el indice de ese personaje si se encuentra en la lista y si no retorna -1
 def centinela(lista, valor):
     posicion = -1  
     i = 0
@@ -13,6 +14,7 @@ def centinela(lista, valor):
         i += 1
     return posicion
 
+#Uso de la funcion def centinela para encontrar un personaje especifico en la lista
 posicion_yoda = centinela(personajes,"Yoda")
 
 
