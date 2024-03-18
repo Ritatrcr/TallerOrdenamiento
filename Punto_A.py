@@ -18,7 +18,6 @@ sorted_personajes = quick_sort(personajes)
 print(sorted_personajes)
 
 """
-
 Se implementa Quick Sort ya que es eficiente para listas grandes y utiliza menos memoria.
 El algoritmo de Quick Sort es un algoritmo de ordenamiento que utiliza la técnica de divide y vencerás para ordenar listas.
 El algoritmo funciona de la siguiente manera:
