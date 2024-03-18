@@ -23,5 +23,8 @@ else:
 """
 El punto de usar el algoritmo de búsqueda con centinela (centinela) es buscar eficientemente un elemento en una lista sin necesidad de revisar todos los elementos.
 Funciona deteniendo la búsqueda tan pronto como se encuentra el elemento deseado, lo que reduce el número de comparaciones necesarias.
-En este caso, se utiliza para encontrar la posición de un personaje en una lista de nombres. Si el personaje se encuentra en la lista, la función devuelve su posición; de lo contrario, devuelve -1.
+En este caso, se utiliza para encontrar la posición de un personaje en una lista de nombres. 
+Si el personaje se encuentra en la lista, la función devuelve su posición; de lo contrario, devuelve -1.
+Se comparan en mayúsculas para evitar errores y asegurar que la comparación sea insensible a mayúsculas y minúsculas. 
+
 """
