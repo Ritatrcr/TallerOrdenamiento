@@ -7,14 +7,21 @@ def centinela(lista, valor):
     posicion = -1  
     i = 0
     while i < len(lista) and posicion == -1:
-        if lista[i] == valor:
+        if lista[i].upper() == valor:
             posicion = i
         i += 1
     return posicion
 
 # Verificamos si el personaje se encontró antes de imprimir su posición
-posicion = centinela(personajes, "Darth Maul")
+posicion = centinela(personajes, "DARTH MAUL")
 if posicion != -1:
     print("El personaje Darth Maul se encuentra en la posición", posicion + 1)
 else:
     print("El personaje Darth Maul no se encuentra en la lista.")
+
+
+"""
+El punto de usar el algoritmo de búsqueda con centinela (centinela) es buscar eficientemente un elemento en una lista sin necesidad de revisar todos los elementos.
+Funciona deteniendo la búsqueda tan pronto como se encuentra el elemento deseado, lo que reduce el número de comparaciones necesarias.
+En este caso, se utiliza para encontrar la posición de un personaje en una lista de nombres. Si el personaje se encuentra en la lista, la función devuelve su posición; de lo contrario, devuelve -1.
+"""
