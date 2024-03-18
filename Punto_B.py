@@ -1,4 +1,7 @@
-personajes = ["Anakin Skywalker", "Luke Skywalker", "Leia Organa", "Obi-Wan Kenobi", "Han Solo", "Chewbacca", "Darth Vader", "Darth Maul", "Yoda", "Jaba the Hutt", "Boba Fett", "R2D2", "C3PO", "Padme Amidala", "Darth Sidious"]
+# Determinar si el personaje "Darth Maul" se encuentra en la lista de personajes. 
+#Si se encuentra, imprimir su posición en la lista. Si no se encuentra, imprimir un mensaje que lo indique.
+personajes = ["Anakin Skywalker", "Luke Skywalker", "Leia Organa", "Obi-Wan Kenobi", "Han Solo", "Chewbacca", "Darth Vader", "Darth Maul", "Yoda", 
+              "Jaba the Hutt", "Boba Fett", "R2D2", "C3PO", "Padme Amidala", "Darth Sidious"]
 
 def centinela(lista, valor):
     posicion = -1  
